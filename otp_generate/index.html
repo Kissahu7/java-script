@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <!--<link rel='stylesheet' type='text/css' media='screen' href='main.css'>-->
+    <script src='generate_opt.js' defer></script>
+</head>
+<body>
+    <form id="OTP" name="OTP">
+        <Table>
+            <tr>
+                <td id="lenth_no" >Enter the length to Generete OTP : <input type="number" id="otp_length"></td>
+                <td><input type="button" onclick="return generateopt();"value="Generate OTP"> </td>
+            </tr>
+        </Table>
+            <br>
+            <Table>
+            <tr>
+                <td>Generated Sample OTP is : <label id="generatedOTP"></label> </td>
+            </tr>
+        </Table>
+    </form>
+</body>
+</html>
